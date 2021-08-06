@@ -1,7 +1,7 @@
 body {
   margin:0;
   padding:0;
-  background-image: url("https://static1.squarespace.com/static/5693309f2399a31801736f01/t/56ca2a9520c647f079d5f63a/1456089750256/maxim6.jpg?");
+  background-image:url(img/tela1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: -webkit-fill-available;
@@ -55,7 +55,7 @@ header nav ul li{
 }
 
 header nav ul li:hover{
-  background-color: darkgray;
+  background-color: rgb(231, 247, 15);
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ header nav ul li ul li{
   flex-direction: column;
   color:white;
   
-  background-color: gray;
+  background-color: rgb(119, 18, 18);
 }
 
 .menu{
@@ -96,7 +96,7 @@ header nav ul li ul li{
   position: absolute;
   height: 5px;
   width: 30px;
-  background-color: white;
+  background-color: rgb(100, 44, 44);
   border-radius: 10px;
   transition: all ease 0.3s;
 }
@@ -167,7 +167,7 @@ header nav ul li ul li{
   }
   
   header nav ul li {
-    border-bottom: 1px solid rgba(0, 0, 0, .2)
+    border-bottom: 1px solid rgba(150, 27, 27, 0.2)
   }
   
   .abrirMenu{
